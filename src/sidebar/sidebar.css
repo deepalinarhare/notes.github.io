@@ -1,0 +1,32 @@
+img {
+    /* height:50px; */
+    width:50px;
+    cursor: pointer;
+    position: relative;
+    top:20px;
+    left:22px;
+    
+}
+
+.sidebar {
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+
+}
+
+.sidebar_list {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+   
+}
+ 
+ 
+.sidebar_item {
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+    list-style: none;
+}
